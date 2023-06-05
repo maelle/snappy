@@ -1,0 +1,19 @@
+Package: snappy
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Maëlle", "Salmon", , "msmaellesalmon@gmail.com", role = c("cre", "aut"),
+           comment = c(ORCID = "0000-0002-2815-0399"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3
+Config/testthat/parallel: true
+Imports: 
+    testthat (>= 3.1.8.9000)
+Remotes: 
+    r-lib/testthat
+Suggests: 
+    withr
